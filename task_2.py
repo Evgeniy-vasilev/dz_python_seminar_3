@@ -16,7 +16,7 @@ def composition_pair(list):
     if len(list) % 2 != 0:
         print(result_list.append(list[(len(list) // 2)] ** 2))
 
-    return print(result_list)
+    return result_list
 
 
-composition_pair([2, 3, 4, 5, 6, 7, 8])
+print(composition_pair([2, 3, 4, 5, 6, 7, 8]))

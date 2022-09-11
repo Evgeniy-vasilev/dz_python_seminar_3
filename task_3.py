@@ -11,7 +11,7 @@ def diff_fract(list):
 
     fractional = max(list_fract) - min(list_fract)
 
-    return print(fractional)
+    return fractional
 
 
-diff_fract([1.1, 1.2, 3.1, 10.01])
+print(diff_fract([1.1, 1.2, 3.1, 10.01]))

@@ -11,8 +11,8 @@ def in_binary(number):
         list.append(number % 2)
         number //= 2
 
-    return print(''.join(str(i) for i in list)[::-1])
+    return ''.join(str(i) for i in list)[::-1]
 
 
 number = int(input('Введите число: '))
-in_binary(number)
+print(in_binary(number))

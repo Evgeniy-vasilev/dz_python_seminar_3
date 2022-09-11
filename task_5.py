@@ -12,8 +12,8 @@ def fibb(num):
         list_neg.append(list_neg[i] - list_neg[i + 1])
         i += 1
 
-    return print(list_neg[::-1] + list_pos)
+    return list_neg[::-1] + list_pos
 
 
 num = int(input('Введите число: '))
-fibb(num)
+print(fibb(num))

@@ -9,7 +9,7 @@ def sum_even(list):
     for i in range(1, len(list), 2):
         sum += list[i]
 
-    return print(f'Сумма равна: {sum}')
+    return f'Сумма равна: {sum}'
 
 
-sum_even([2, 7, 5, 6, 4, 8, 6, 2, 4, 6, 1, 1])
+print(sum_even([2, 7, 5, 6, 4, 8, 6, 2, 4, 6, 1, 1]))
